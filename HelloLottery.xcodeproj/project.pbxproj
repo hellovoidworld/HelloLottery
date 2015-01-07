@@ -11,11 +11,63 @@
 		E08E31251A54411E00CA1315 /* HVWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E08E31241A54411D00CA1315 /* HVWTabBar.m */; };
 		E08E31281A54DE0F00CA1315 /* HVWTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E08E31271A54DE0F00CA1315 /* HVWTabBarButton.m */; };
 		E08E312B1A54FDC300CA1315 /* HVWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E08E312A1A54FDC300CA1315 /* HVWNavigationController.m */; };
+		E0BE7E6A1A5CD930001F59C0 /* HVWProductViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BE7E691A5CD930001F59C0 /* HVWProductViewController.m */; };
+		E0BE7E6E1A5CD9C2001F59C0 /* HVWProductCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BE7E6C1A5CD9C2001F59C0 /* HVWProductCell.m */; };
+		E0BE7E6F1A5CD9C2001F59C0 /* HVWProductCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E0BE7E6D1A5CD9C2001F59C0 /* HVWProductCell.xib */; };
+		E0BE7E721A5CDAD0001F59C0 /* HVWProduct.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BE7E711A5CDAD0001F59C0 /* HVWProduct.m */; };
+		E0BE7E751A5D13DF001F59C0 /* HVWHelpViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BE7E741A5D13DF001F59C0 /* HVWHelpViewController.m */; };
+		E0BE7E771A5D15B1001F59C0 /* help.json in Resources */ = {isa = PBXBuildFile; fileRef = E0BE7E761A5D15B1001F59C0 /* help.json */; };
+		E0BE7E7A1A5D162F001F59C0 /* HVWHtml.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BE7E791A5D162F001F59C0 /* HVWHtml.m */; };
+		E0BE7E7D1A5D1B59001F59C0 /* HVWHtmlViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BE7E7C1A5D1B59001F59C0 /* HVWHtmlViewController.m */; };
 		E0C273661A5436F1003C1A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C273651A5436F1003C1A93 /* main.m */; };
 		E0C273691A5436F1003C1A93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C273681A5436F1003C1A93 /* AppDelegate.m */; };
 		E0C2736F1A5436F1003C1A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C2736D1A5436F1003C1A93 /* Main.storyboard */; };
 		E0C273711A5436F1003C1A93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C273701A5436F1003C1A93 /* Images.xcassets */; };
 		E0C273801A5436F1003C1A93 /* HelloLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C2737F1A5436F1003C1A93 /* HelloLotteryTests.m */; };
+		E0D27F051A5B84DF00CA7B24 /* cywt.json in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EE51A5B84DF00CA7B24 /* cywt.json */; };
+		E0D27F061A5B84DF00CA7B24 /* more_project.json in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EE61A5B84DF00CA7B24 /* more_project.json */; };
+		E0D27F071A5B84DF00CA7B24 /* bjdc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EE81A5B84DF00CA7B24 /* bjdc_howto.html */; };
+		E0D27F081A5B84DF00CA7B24 /* coupon_help.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EE91A5B84DF00CA7B24 /* coupon_help.html */; };
+		E0D27F091A5B84DF00CA7B24 /* credit_help.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EEA1A5B84DF00CA7B24 /* credit_help.html */; };
+		E0D27F0A1A5B84DF00CA7B24 /* dlt_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EEB1A5B84DF00CA7B24 /* dlt_howto.html */; };
+		E0D27F0B1A5B84DF00CA7B24 /* f9_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EEC1A5B84DF00CA7B24 /* f9_howto.html */; };
+		E0D27F0C1A5B84DF00CA7B24 /* gdy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EED1A5B84DF00CA7B24 /* gdy11_howto.html */; };
+		E0D27F0D1A5B84DF00CA7B24 /* group_record.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EEE1A5B84DF00CA7B24 /* group_record.html */; };
+		E0D27F0E1A5B84DF00CA7B24 /* help.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EEF1A5B84DF00CA7B24 /* help.html */; };
+		E0D27F0F1A5B84DF00CA7B24 /* helpGroupBuy.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EF01A5B84DF00CA7B24 /* helpGroupBuy.html */; };
+		E0D27F101A5B84DF00CA7B24 /* jclq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EF11A5B84DF00CA7B24 /* jclq_howto.html */; };
+		E0D27F111A5B84DF00CA7B24 /* jczq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EF21A5B84DF00CA7B24 /* jczq_howto.html */; };
+		E0D27F121A5B84DF00CA7B24 /* jxssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EF31A5B84DF00CA7B24 /* jxssc_howto.html */; };
+		E0D27F131A5B84DF00CA7B24 /* jxy11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EF41A5B84DF00CA7B24 /* jxy11_howto.html */; };
+		E0D27F141A5B84DF00CA7B24 /* k2_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EF51A5B84DF00CA7B24 /* k2_howto.html */; };
+		E0D27F151A5B84DF00CA7B24 /* k3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EF61A5B84DF00CA7B24 /* k3_howto.html */; };
+		E0D27F161A5B84DF00CA7B24 /* kl8_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EF71A5B84DF00CA7B24 /* kl8_howto.html */; };
+		E0D27F171A5B84DF00CA7B24 /* lk11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EF81A5B84DF00CA7B24 /* lk11_howto.html */; };
+		E0D27F181A5B84DF00CA7B24 /* networkconnectedfailed.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EF91A5B84DF00CA7B24 /* networkconnectedfailed.html */; };
+		E0D27F191A5B84DF00CA7B24 /* pl3_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EFA1A5B84DF00CA7B24 /* pl3_howto.html */; };
+		E0D27F1A1A5B84DF00CA7B24 /* pl5_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EFB1A5B84DF00CA7B24 /* pl5_howto.html */; };
+		E0D27F1B1A5B84DF00CA7B24 /* qlc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EFC1A5B84DF00CA7B24 /* qlc_howto.html */; };
+		E0D27F1C1A5B84DF00CA7B24 /* qxc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EFD1A5B84DF00CA7B24 /* qxc_howto.html */; };
+		E0D27F1D1A5B84DF00CA7B24 /* rule.css in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EFE1A5B84DF00CA7B24 /* rule.css */; };
+		E0D27F1E1A5B84DF00CA7B24 /* sfc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27EFF1A5B84DF00CA7B24 /* sfc_howto.html */; };
+		E0D27F1F1A5B84DF00CA7B24 /* ssc_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27F001A5B84DF00CA7B24 /* ssc_howto.html */; };
+		E0D27F201A5B84DF00CA7B24 /* ssq_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27F011A5B84DF00CA7B24 /* ssq_howto.html */; };
+		E0D27F211A5B84DF00CA7B24 /* x3d_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27F021A5B84DF00CA7B24 /* x3d_howto.html */; };
+		E0D27F221A5B84DF00CA7B24 /* y11_howto.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27F031A5B84DF00CA7B24 /* y11_howto.html */; };
+		E0D27F231A5B84DF00CA7B24 /* znzh.html in Resources */ = {isa = PBXBuildFile; fileRef = E0D27F041A5B84DF00CA7B24 /* znzh.html */; };
+		E0D27F261A5B85CA00CA7B24 /* HVWBaseSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D27F251A5B85CA00CA7B24 /* HVWBaseSettingViewController.m */; };
+		E0D27F291A5B884600CA7B24 /* HVWSettingGroup.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D27F281A5B884600CA7B24 /* HVWSettingGroup.m */; };
+		E0D27F2C1A5B885200CA7B24 /* HVWSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D27F2B1A5B885200CA7B24 /* HVWSettingItem.m */; };
+		E0D27F2F1A5B8A1D00CA7B24 /* HVWSettingCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D27F2E1A5B8A1D00CA7B24 /* HVWSettingCell.m */; };
+		E0D27F321A5B8CDF00CA7B24 /* HVWSettingViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D27F311A5B8CDF00CA7B24 /* HVWSettingViewController.m */; };
+		E0D27F351A5BCB0B00CA7B24 /* HVWArrowSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D27F341A5BCB0B00CA7B24 /* HVWArrowSettingItem.m */; };
+		E0D27F381A5BCB1A00CA7B24 /* HVWSwitchSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D27F371A5BCB1A00CA7B24 /* HVWSwitchSettingItem.m */; };
+		E0D27F3B1A5BCBF100CA7B24 /* HVWLabelSettingItem.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D27F3A1A5BCBF100CA7B24 /* HVWLabelSettingItem.m */; };
+		E0D27F3E1A5BDBCF00CA7B24 /* HVWPushNoticeViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D27F3D1A5BDBCF00CA7B24 /* HVWPushNoticeViewController.m */; };
+		E0D27F411A5BFCAF00CA7B24 /* HVWLotteryPushViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D27F401A5BFCAF00CA7B24 /* HVWLotteryPushViewController.m */; };
+		E0D27F481A5C209400CA7B24 /* MBProgressHUD+MJ.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D27F441A5C209400CA7B24 /* MBProgressHUD+MJ.m */; };
+		E0D27F491A5C209400CA7B24 /* MBProgressHUD.bundle in Resources */ = {isa = PBXBuildFile; fileRef = E0D27F451A5C209400CA7B24 /* MBProgressHUD.bundle */; };
+		E0D27F4A1A5C209400CA7B24 /* MBProgressHUD.m in Sources */ = {isa = PBXBuildFile; fileRef = E0D27F471A5C209400CA7B24 /* MBProgressHUD.m */; };
 		E0EC863E1A5808620007CFB3 /* TitleExtendButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EC863D1A5808620007CFB3 /* TitleExtendButton.m */; };
 		E0EC86421A580DEF0007CFB3 /* HVWBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EC86411A580DEF0007CFB3 /* HVWBuyViewController.m */; };
 		E0EC86451A582D6F0007CFB3 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EC86441A582D6F0007CFB3 /* UIImage+Extend.m */; };
@@ -42,6 +94,20 @@
 		E08E31291A54FDC300CA1315 /* HVWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWNavigationController.h; sourceTree = "<group>"; };
 		E08E312A1A54FDC300CA1315 /* HVWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWNavigationController.m; sourceTree = "<group>"; };
 		E08E312D1A55019B00CA1315 /* HelloLottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloLottery-Prefix.pch"; sourceTree = "<group>"; };
+		E0BE7E681A5CD930001F59C0 /* HVWProductViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWProductViewController.h; sourceTree = "<group>"; };
+		E0BE7E691A5CD930001F59C0 /* HVWProductViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWProductViewController.m; sourceTree = "<group>"; };
+		E0BE7E6B1A5CD9C2001F59C0 /* HVWProductCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWProductCell.h; sourceTree = "<group>"; };
+		E0BE7E6C1A5CD9C2001F59C0 /* HVWProductCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWProductCell.m; sourceTree = "<group>"; };
+		E0BE7E6D1A5CD9C2001F59C0 /* HVWProductCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HVWProductCell.xib; sourceTree = "<group>"; };
+		E0BE7E701A5CDAD0001F59C0 /* HVWProduct.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWProduct.h; sourceTree = "<group>"; };
+		E0BE7E711A5CDAD0001F59C0 /* HVWProduct.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWProduct.m; sourceTree = "<group>"; };
+		E0BE7E731A5D13DF001F59C0 /* HVWHelpViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWHelpViewController.h; sourceTree = "<group>"; };
+		E0BE7E741A5D13DF001F59C0 /* HVWHelpViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWHelpViewController.m; sourceTree = "<group>"; };
+		E0BE7E761A5D15B1001F59C0 /* help.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = help.json; sourceTree = "<group>"; };
+		E0BE7E781A5D162F001F59C0 /* HVWHtml.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWHtml.h; sourceTree = "<group>"; };
+		E0BE7E791A5D162F001F59C0 /* HVWHtml.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWHtml.m; sourceTree = "<group>"; };
+		E0BE7E7B1A5D1B59001F59C0 /* HVWHtmlViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWHtmlViewController.h; sourceTree = "<group>"; };
+		E0BE7E7C1A5D1B59001F59C0 /* HVWHtmlViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWHtmlViewController.m; sourceTree = "<group>"; };
 		E0C273601A5436F1003C1A93 /* HelloLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C273641A5436F1003C1A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0C273651A5436F1003C1A93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
@@ -52,6 +118,62 @@
 		E0C273791A5436F1003C1A93 /* HelloLotteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloLotteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C2737E1A5436F1003C1A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0C2737F1A5436F1003C1A93 /* HelloLotteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloLotteryTests.m; sourceTree = "<group>"; };
+		E0D27EE51A5B84DF00CA7B24 /* cywt.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = cywt.json; sourceTree = "<group>"; };
+		E0D27EE61A5B84DF00CA7B24 /* more_project.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = more_project.json; sourceTree = "<group>"; };
+		E0D27EE81A5B84DF00CA7B24 /* bjdc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = bjdc_howto.html; sourceTree = "<group>"; };
+		E0D27EE91A5B84DF00CA7B24 /* coupon_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = coupon_help.html; sourceTree = "<group>"; };
+		E0D27EEA1A5B84DF00CA7B24 /* credit_help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = credit_help.html; sourceTree = "<group>"; };
+		E0D27EEB1A5B84DF00CA7B24 /* dlt_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = dlt_howto.html; sourceTree = "<group>"; };
+		E0D27EEC1A5B84DF00CA7B24 /* f9_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = f9_howto.html; sourceTree = "<group>"; };
+		E0D27EED1A5B84DF00CA7B24 /* gdy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = gdy11_howto.html; sourceTree = "<group>"; };
+		E0D27EEE1A5B84DF00CA7B24 /* group_record.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = group_record.html; sourceTree = "<group>"; };
+		E0D27EEF1A5B84DF00CA7B24 /* help.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = help.html; sourceTree = "<group>"; };
+		E0D27EF01A5B84DF00CA7B24 /* helpGroupBuy.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = helpGroupBuy.html; sourceTree = "<group>"; };
+		E0D27EF11A5B84DF00CA7B24 /* jclq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jclq_howto.html; sourceTree = "<group>"; };
+		E0D27EF21A5B84DF00CA7B24 /* jczq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jczq_howto.html; sourceTree = "<group>"; };
+		E0D27EF31A5B84DF00CA7B24 /* jxssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxssc_howto.html; sourceTree = "<group>"; };
+		E0D27EF41A5B84DF00CA7B24 /* jxy11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = jxy11_howto.html; sourceTree = "<group>"; };
+		E0D27EF51A5B84DF00CA7B24 /* k2_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k2_howto.html; sourceTree = "<group>"; };
+		E0D27EF61A5B84DF00CA7B24 /* k3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = k3_howto.html; sourceTree = "<group>"; };
+		E0D27EF71A5B84DF00CA7B24 /* kl8_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = kl8_howto.html; sourceTree = "<group>"; };
+		E0D27EF81A5B84DF00CA7B24 /* lk11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = lk11_howto.html; sourceTree = "<group>"; };
+		E0D27EF91A5B84DF00CA7B24 /* networkconnectedfailed.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = networkconnectedfailed.html; sourceTree = "<group>"; };
+		E0D27EFA1A5B84DF00CA7B24 /* pl3_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl3_howto.html; sourceTree = "<group>"; };
+		E0D27EFB1A5B84DF00CA7B24 /* pl5_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = pl5_howto.html; sourceTree = "<group>"; };
+		E0D27EFC1A5B84DF00CA7B24 /* qlc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qlc_howto.html; sourceTree = "<group>"; };
+		E0D27EFD1A5B84DF00CA7B24 /* qxc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = qxc_howto.html; sourceTree = "<group>"; };
+		E0D27EFE1A5B84DF00CA7B24 /* rule.css */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.css; path = rule.css; sourceTree = "<group>"; };
+		E0D27EFF1A5B84DF00CA7B24 /* sfc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = sfc_howto.html; sourceTree = "<group>"; };
+		E0D27F001A5B84DF00CA7B24 /* ssc_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssc_howto.html; sourceTree = "<group>"; };
+		E0D27F011A5B84DF00CA7B24 /* ssq_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = ssq_howto.html; sourceTree = "<group>"; };
+		E0D27F021A5B84DF00CA7B24 /* x3d_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = x3d_howto.html; sourceTree = "<group>"; };
+		E0D27F031A5B84DF00CA7B24 /* y11_howto.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = y11_howto.html; sourceTree = "<group>"; };
+		E0D27F041A5B84DF00CA7B24 /* znzh.html */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.html; path = znzh.html; sourceTree = "<group>"; };
+		E0D27F241A5B85CA00CA7B24 /* HVWBaseSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWBaseSettingViewController.h; sourceTree = "<group>"; };
+		E0D27F251A5B85CA00CA7B24 /* HVWBaseSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWBaseSettingViewController.m; sourceTree = "<group>"; };
+		E0D27F271A5B884600CA7B24 /* HVWSettingGroup.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWSettingGroup.h; sourceTree = "<group>"; };
+		E0D27F281A5B884600CA7B24 /* HVWSettingGroup.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWSettingGroup.m; sourceTree = "<group>"; };
+		E0D27F2A1A5B885200CA7B24 /* HVWSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWSettingItem.h; sourceTree = "<group>"; };
+		E0D27F2B1A5B885200CA7B24 /* HVWSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWSettingItem.m; sourceTree = "<group>"; };
+		E0D27F2D1A5B8A1D00CA7B24 /* HVWSettingCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWSettingCell.h; sourceTree = "<group>"; };
+		E0D27F2E1A5B8A1D00CA7B24 /* HVWSettingCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWSettingCell.m; sourceTree = "<group>"; };
+		E0D27F301A5B8CDF00CA7B24 /* HVWSettingViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWSettingViewController.h; sourceTree = "<group>"; };
+		E0D27F311A5B8CDF00CA7B24 /* HVWSettingViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWSettingViewController.m; sourceTree = "<group>"; };
+		E0D27F331A5BCB0B00CA7B24 /* HVWArrowSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWArrowSettingItem.h; sourceTree = "<group>"; };
+		E0D27F341A5BCB0B00CA7B24 /* HVWArrowSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWArrowSettingItem.m; sourceTree = "<group>"; };
+		E0D27F361A5BCB1A00CA7B24 /* HVWSwitchSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWSwitchSettingItem.h; sourceTree = "<group>"; };
+		E0D27F371A5BCB1A00CA7B24 /* HVWSwitchSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWSwitchSettingItem.m; sourceTree = "<group>"; };
+		E0D27F391A5BCBF100CA7B24 /* HVWLabelSettingItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWLabelSettingItem.h; sourceTree = "<group>"; };
+		E0D27F3A1A5BCBF100CA7B24 /* HVWLabelSettingItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWLabelSettingItem.m; sourceTree = "<group>"; };
+		E0D27F3C1A5BDBCF00CA7B24 /* HVWPushNoticeViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWPushNoticeViewController.h; sourceTree = "<group>"; };
+		E0D27F3D1A5BDBCF00CA7B24 /* HVWPushNoticeViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWPushNoticeViewController.m; sourceTree = "<group>"; };
+		E0D27F3F1A5BFCAF00CA7B24 /* HVWLotteryPushViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWLotteryPushViewController.h; sourceTree = "<group>"; };
+		E0D27F401A5BFCAF00CA7B24 /* HVWLotteryPushViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWLotteryPushViewController.m; sourceTree = "<group>"; };
+		E0D27F431A5C209400CA7B24 /* MBProgressHUD+MJ.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "MBProgressHUD+MJ.h"; sourceTree = "<group>"; };
+		E0D27F441A5C209400CA7B24 /* MBProgressHUD+MJ.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "MBProgressHUD+MJ.m"; sourceTree = "<group>"; };
+		E0D27F451A5C209400CA7B24 /* MBProgressHUD.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = MBProgressHUD.bundle; sourceTree = "<group>"; };
+		E0D27F461A5C209400CA7B24 /* MBProgressHUD.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MBProgressHUD.h; sourceTree = "<group>"; };
+		E0D27F471A5C209400CA7B24 /* MBProgressHUD.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MBProgressHUD.m; sourceTree = "<group>"; };
 		E0EC863C1A5808620007CFB3 /* TitleExtendButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleExtendButton.h; sourceTree = "<group>"; };
 		E0EC863D1A5808620007CFB3 /* TitleExtendButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleExtendButton.m; sourceTree = "<group>"; };
 		E0EC86401A580DEF0007CFB3 /* HVWBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWBuyViewController.h; sourceTree = "<group>"; };
@@ -90,6 +212,9 @@
 		E08E31171A543EBA00CA1315 /* Setting */ = {
 			isa = PBXGroup;
 			children = (
+				E0D27EE21A5B84A300CA7B24 /* Model */,
+				E0D27EE11A5B849E00CA7B24 /* View */,
+				E0D27EE01A5B849900CA7B24 /* Controller */,
 			);
 			name = Setting;
 			sourceTree = "<group>";
@@ -163,6 +288,8 @@
 		E0C273631A5436F1003C1A93 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				E0D27F421A5C209400CA7B24 /* MBProgressHUD */,
+				E0D27EE31A5B84CD00CA7B24 /* LocalFiles */,
 				E0C2736D1A5436F1003C1A93 /* Main.storyboard */,
 				E0C273701A5436F1003C1A93 /* Images.xcassets */,
 				E0C273641A5436F1003C1A93 /* Info.plist */,
@@ -200,6 +327,127 @@
 				E0EC86391A57F9370007CFB3 /* Mine */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		E0D27EE01A5B849900CA7B24 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0D27F241A5B85CA00CA7B24 /* HVWBaseSettingViewController.h */,
+				E0D27F251A5B85CA00CA7B24 /* HVWBaseSettingViewController.m */,
+				E0D27F301A5B8CDF00CA7B24 /* HVWSettingViewController.h */,
+				E0D27F311A5B8CDF00CA7B24 /* HVWSettingViewController.m */,
+				E0D27F3C1A5BDBCF00CA7B24 /* HVWPushNoticeViewController.h */,
+				E0D27F3D1A5BDBCF00CA7B24 /* HVWPushNoticeViewController.m */,
+				E0D27F3F1A5BFCAF00CA7B24 /* HVWLotteryPushViewController.h */,
+				E0D27F401A5BFCAF00CA7B24 /* HVWLotteryPushViewController.m */,
+				E0BE7E681A5CD930001F59C0 /* HVWProductViewController.h */,
+				E0BE7E691A5CD930001F59C0 /* HVWProductViewController.m */,
+				E0BE7E731A5D13DF001F59C0 /* HVWHelpViewController.h */,
+				E0BE7E741A5D13DF001F59C0 /* HVWHelpViewController.m */,
+				E0BE7E7B1A5D1B59001F59C0 /* HVWHtmlViewController.h */,
+				E0BE7E7C1A5D1B59001F59C0 /* HVWHtmlViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E0D27EE11A5B849E00CA7B24 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0D27F2D1A5B8A1D00CA7B24 /* HVWSettingCell.h */,
+				E0D27F2E1A5B8A1D00CA7B24 /* HVWSettingCell.m */,
+				E0BE7E6B1A5CD9C2001F59C0 /* HVWProductCell.h */,
+				E0BE7E6C1A5CD9C2001F59C0 /* HVWProductCell.m */,
+				E0BE7E6D1A5CD9C2001F59C0 /* HVWProductCell.xib */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E0D27EE21A5B84A300CA7B24 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				E0D27F271A5B884600CA7B24 /* HVWSettingGroup.h */,
+				E0D27F281A5B884600CA7B24 /* HVWSettingGroup.m */,
+				E0D27F2A1A5B885200CA7B24 /* HVWSettingItem.h */,
+				E0D27F2B1A5B885200CA7B24 /* HVWSettingItem.m */,
+				E0D27F331A5BCB0B00CA7B24 /* HVWArrowSettingItem.h */,
+				E0D27F341A5BCB0B00CA7B24 /* HVWArrowSettingItem.m */,
+				E0D27F361A5BCB1A00CA7B24 /* HVWSwitchSettingItem.h */,
+				E0D27F371A5BCB1A00CA7B24 /* HVWSwitchSettingItem.m */,
+				E0D27F391A5BCBF100CA7B24 /* HVWLabelSettingItem.h */,
+				E0D27F3A1A5BCBF100CA7B24 /* HVWLabelSettingItem.m */,
+				E0BE7E701A5CDAD0001F59C0 /* HVWProduct.h */,
+				E0BE7E711A5CDAD0001F59C0 /* HVWProduct.m */,
+				E0BE7E781A5D162F001F59C0 /* HVWHtml.h */,
+				E0BE7E791A5D162F001F59C0 /* HVWHtml.m */,
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E0D27EE31A5B84CD00CA7B24 /* LocalFiles */ = {
+			isa = PBXGroup;
+			children = (
+				E0D27EE41A5B84DF00CA7B24 /* Data */,
+				E0D27EE71A5B84DF00CA7B24 /* Html */,
+			);
+			name = LocalFiles;
+			sourceTree = "<group>";
+		};
+		E0D27EE41A5B84DF00CA7B24 /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				E0BE7E761A5D15B1001F59C0 /* help.json */,
+				E0D27EE51A5B84DF00CA7B24 /* cywt.json */,
+				E0D27EE61A5B84DF00CA7B24 /* more_project.json */,
+			);
+			path = Data;
+			sourceTree = "<group>";
+		};
+		E0D27EE71A5B84DF00CA7B24 /* Html */ = {
+			isa = PBXGroup;
+			children = (
+				E0D27EE81A5B84DF00CA7B24 /* bjdc_howto.html */,
+				E0D27EE91A5B84DF00CA7B24 /* coupon_help.html */,
+				E0D27EEA1A5B84DF00CA7B24 /* credit_help.html */,
+				E0D27EEB1A5B84DF00CA7B24 /* dlt_howto.html */,
+				E0D27EEC1A5B84DF00CA7B24 /* f9_howto.html */,
+				E0D27EED1A5B84DF00CA7B24 /* gdy11_howto.html */,
+				E0D27EEE1A5B84DF00CA7B24 /* group_record.html */,
+				E0D27EEF1A5B84DF00CA7B24 /* help.html */,
+				E0D27EF01A5B84DF00CA7B24 /* helpGroupBuy.html */,
+				E0D27EF11A5B84DF00CA7B24 /* jclq_howto.html */,
+				E0D27EF21A5B84DF00CA7B24 /* jczq_howto.html */,
+				E0D27EF31A5B84DF00CA7B24 /* jxssc_howto.html */,
+				E0D27EF41A5B84DF00CA7B24 /* jxy11_howto.html */,
+				E0D27EF51A5B84DF00CA7B24 /* k2_howto.html */,
+				E0D27EF61A5B84DF00CA7B24 /* k3_howto.html */,
+				E0D27EF71A5B84DF00CA7B24 /* kl8_howto.html */,
+				E0D27EF81A5B84DF00CA7B24 /* lk11_howto.html */,
+				E0D27EF91A5B84DF00CA7B24 /* networkconnectedfailed.html */,
+				E0D27EFA1A5B84DF00CA7B24 /* pl3_howto.html */,
+				E0D27EFB1A5B84DF00CA7B24 /* pl5_howto.html */,
+				E0D27EFC1A5B84DF00CA7B24 /* qlc_howto.html */,
+				E0D27EFD1A5B84DF00CA7B24 /* qxc_howto.html */,
+				E0D27EFE1A5B84DF00CA7B24 /* rule.css */,
+				E0D27EFF1A5B84DF00CA7B24 /* sfc_howto.html */,
+				E0D27F001A5B84DF00CA7B24 /* ssc_howto.html */,
+				E0D27F011A5B84DF00CA7B24 /* ssq_howto.html */,
+				E0D27F021A5B84DF00CA7B24 /* x3d_howto.html */,
+				E0D27F031A5B84DF00CA7B24 /* y11_howto.html */,
+				E0D27F041A5B84DF00CA7B24 /* znzh.html */,
+			);
+			path = Html;
+			sourceTree = "<group>";
+		};
+		E0D27F421A5C209400CA7B24 /* MBProgressHUD */ = {
+			isa = PBXGroup;
+			children = (
+				E0D27F431A5C209400CA7B24 /* MBProgressHUD+MJ.h */,
+				E0D27F441A5C209400CA7B24 /* MBProgressHUD+MJ.m */,
+				E0D27F451A5C209400CA7B24 /* MBProgressHUD.bundle */,
+				E0D27F461A5C209400CA7B24 /* MBProgressHUD.h */,
+				E0D27F471A5C209400CA7B24 /* MBProgressHUD.m */,
+			);
+			path = MBProgressHUD;
 			sourceTree = "<group>";
 		};
 		E0EC86371A57F9070007CFB3 /* Other */ = {
@@ -337,8 +585,42 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E0D27F131A5B84DF00CA7B24 /* jxy11_howto.html in Resources */,
+				E0D27F111A5B84DF00CA7B24 /* jczq_howto.html in Resources */,
+				E0D27F1B1A5B84DF00CA7B24 /* qlc_howto.html in Resources */,
+				E0D27F1A1A5B84DF00CA7B24 /* pl5_howto.html in Resources */,
+				E0D27F0D1A5B84DF00CA7B24 /* group_record.html in Resources */,
+				E0D27F0E1A5B84DF00CA7B24 /* help.html in Resources */,
+				E0D27F181A5B84DF00CA7B24 /* networkconnectedfailed.html in Resources */,
+				E0D27F1C1A5B84DF00CA7B24 /* qxc_howto.html in Resources */,
+				E0D27F091A5B84DF00CA7B24 /* credit_help.html in Resources */,
+				E0D27F0C1A5B84DF00CA7B24 /* gdy11_howto.html in Resources */,
+				E0BE7E771A5D15B1001F59C0 /* help.json in Resources */,
+				E0D27F101A5B84DF00CA7B24 /* jclq_howto.html in Resources */,
+				E0D27F1D1A5B84DF00CA7B24 /* rule.css in Resources */,
+				E0D27F0F1A5B84DF00CA7B24 /* helpGroupBuy.html in Resources */,
+				E0D27F231A5B84DF00CA7B24 /* znzh.html in Resources */,
+				E0BE7E6F1A5CD9C2001F59C0 /* HVWProductCell.xib in Resources */,
+				E0D27F051A5B84DF00CA7B24 /* cywt.json in Resources */,
+				E0D27F171A5B84DF00CA7B24 /* lk11_howto.html in Resources */,
 				E0C2736F1A5436F1003C1A93 /* Main.storyboard in Resources */,
+				E0D27F061A5B84DF00CA7B24 /* more_project.json in Resources */,
+				E0D27F141A5B84DF00CA7B24 /* k2_howto.html in Resources */,
+				E0D27F491A5C209400CA7B24 /* MBProgressHUD.bundle in Resources */,
+				E0D27F161A5B84DF00CA7B24 /* kl8_howto.html in Resources */,
 				E0C273711A5436F1003C1A93 /* Images.xcassets in Resources */,
+				E0D27F0B1A5B84DF00CA7B24 /* f9_howto.html in Resources */,
+				E0D27F1E1A5B84DF00CA7B24 /* sfc_howto.html in Resources */,
+				E0D27F0A1A5B84DF00CA7B24 /* dlt_howto.html in Resources */,
+				E0D27F071A5B84DF00CA7B24 /* bjdc_howto.html in Resources */,
+				E0D27F121A5B84DF00CA7B24 /* jxssc_howto.html in Resources */,
+				E0D27F081A5B84DF00CA7B24 /* coupon_help.html in Resources */,
+				E0D27F211A5B84DF00CA7B24 /* x3d_howto.html in Resources */,
+				E0D27F151A5B84DF00CA7B24 /* k3_howto.html in Resources */,
+				E0D27F221A5B84DF00CA7B24 /* y11_howto.html in Resources */,
+				E0D27F1F1A5B84DF00CA7B24 /* ssc_howto.html in Resources */,
+				E0D27F201A5B84DF00CA7B24 /* ssq_howto.html in Resources */,
+				E0D27F191A5B84DF00CA7B24 /* pl3_howto.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -360,12 +642,30 @@
 				E0C273691A5436F1003C1A93 /* AppDelegate.m in Sources */,
 				E0EC86451A582D6F0007CFB3 /* UIImage+Extend.m in Sources */,
 				E0C273661A5436F1003C1A93 /* main.m in Sources */,
+				E0D27F411A5BFCAF00CA7B24 /* HVWLotteryPushViewController.m in Sources */,
+				E0D27F3B1A5BCBF100CA7B24 /* HVWLabelSettingItem.m in Sources */,
 				E08E312B1A54FDC300CA1315 /* HVWNavigationController.m in Sources */,
+				E0BE7E7D1A5D1B59001F59C0 /* HVWHtmlViewController.m in Sources */,
 				E0EC863E1A5808620007CFB3 /* TitleExtendButton.m in Sources */,
 				E0EC86481A582F400007CFB3 /* HVWLoginViewController.m in Sources */,
+				E0BE7E6E1A5CD9C2001F59C0 /* HVWProductCell.m in Sources */,
+				E0D27F321A5B8CDF00CA7B24 /* HVWSettingViewController.m in Sources */,
+				E0BE7E6A1A5CD930001F59C0 /* HVWProductViewController.m in Sources */,
 				E0EC86421A580DEF0007CFB3 /* HVWBuyViewController.m in Sources */,
+				E0BE7E721A5CDAD0001F59C0 /* HVWProduct.m in Sources */,
+				E0D27F291A5B884600CA7B24 /* HVWSettingGroup.m in Sources */,
+				E0BE7E7A1A5D162F001F59C0 /* HVWHtml.m in Sources */,
+				E0D27F261A5B85CA00CA7B24 /* HVWBaseSettingViewController.m in Sources */,
 				E08E31221A543F4D00CA1315 /* HVWTabBarController.m in Sources */,
 				E08E31251A54411E00CA1315 /* HVWTabBar.m in Sources */,
+				E0D27F4A1A5C209400CA7B24 /* MBProgressHUD.m in Sources */,
+				E0D27F3E1A5BDBCF00CA7B24 /* HVWPushNoticeViewController.m in Sources */,
+				E0D27F351A5BCB0B00CA7B24 /* HVWArrowSettingItem.m in Sources */,
+				E0BE7E751A5D13DF001F59C0 /* HVWHelpViewController.m in Sources */,
+				E0D27F381A5BCB1A00CA7B24 /* HVWSwitchSettingItem.m in Sources */,
+				E0D27F481A5C209400CA7B24 /* MBProgressHUD+MJ.m in Sources */,
+				E0D27F2F1A5B8A1D00CA7B24 /* HVWSettingCell.m in Sources */,
+				E0D27F2C1A5B885200CA7B24 /* HVWSettingItem.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -483,6 +783,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloLottery/HelloLottery-Prefix.pch";
 				INFOPLIST_FILE = HelloLottery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};
@@ -496,6 +797,7 @@
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloLottery/HelloLottery-Prefix.pch";
 				INFOPLIST_FILE = HelloLottery/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.1;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 			};

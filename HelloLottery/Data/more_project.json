@@ -1,0 +1,86 @@
+[
+      {
+            "title": "网易电影票", 
+            "id": "com.netease.movie",
+            "url": "http://itunes.apple.com/app/id583784224?mt=8", 
+            "icon": "movie@2x.png", 
+            "customUrl": "movieticket163"
+      },
+      {
+            "title": "网易新闻", 
+            "id": "com.netease.news", 
+            "url": "http://itunes.apple.com/app/id425349261?mt=8", 
+            "icon": "newsapp@2x.png", 
+            "customUrl": "newsapp"
+      }, 
+      {
+            "title": "网易公开课", 
+            "id": "com.netease.videoHD", 
+            "url": "http://itunes.apple.com/app/id415424368?mt=8", 
+            "icon": "open@2x.png", 
+            "customUrl": "ntesopen"
+      }, 
+      {
+            "title": "网易电视指南", 
+            "id": "com.netease.tvguide", 
+            "url": "http://itunes.apple.com/app/id480095986", 
+            "icon": "tvguide@2x.png", 
+            "customUrl": "tvguide"
+      }, 
+      {
+            "title": "网易阅读", 
+            "id": "com.netease.iphonereader", 
+            "url": "http://itunes.apple.com/app/id462186890?mt=8", 
+            "icon": "reader@2x.png", 
+            "customUrl": ""
+      },
+      {
+            "title": "网易云相册", 
+            "id": "com.netease.cloudphotos", 
+            "url": "http://itunes.apple.com/app/id451931841?mt=8", 
+            "icon": "cloudphotos@2x.png", 
+            "customUrl": ""
+      },
+      {
+            "title": "网易手机邮", 
+            "id": "com.netease.RPMMS-UI", 
+            "url": "http://itunes.apple.com/app/id371634015?mt=8", 
+            "icon": "shoujiyou@2x.png", 
+            "customUrl": ""
+      }, 
+      {
+            "title": "网易微博", 
+            "id": "com.netease.microblogging", 
+            "url": "http://itunes.apple.com/app/id383629309?mt=8", 
+            "icon": "newb@2x.png", 
+            "customUrl": "microblogging"
+      },
+      {
+            "title": "有道词典", 
+            "id": "youdaoPro", 
+            "url": "http://itunes.apple.com/app/id353115739?mt=8", 
+            "icon": "youdao@2x.png", 
+            "customUrl": "yddictProapp"
+      }, 
+      {
+            "title": "饭饭", 
+            "id": "fanfan", 
+            "url": "https://itunes.apple.com/cn/app/fan-fan/id487503086?mt=8", 
+            "icon": "fanfan@2x.png", 
+            "customUrl": ""
+      },  
+      {
+            "title": "有道笔记", 
+            "id": "com.youdao.note.iphone", 
+            "url": "http://itunes.apple.com/app/id450748070?mt=8", 
+            "icon": "youdaonote@2x.png", 
+            "customUrl": ""
+      },
+      {
+            "title": "恵恵",
+            "id": "cn.huihui.Guide",
+            "url": "https://itunes.apple.com/cn/app/hui-hui-gou-wu-jin-nang-shang/id650705207?mt=8&ls=1",
+            "icon": "huihui@2x.png",
+            "customUrl": ""
+      }
+]

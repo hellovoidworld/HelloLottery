@@ -19,7 +19,6 @@
 
 /** 从文件加载对象就会调用此方法，例如xib和storybard */
 - (id)initWithCoder:(NSCoder *)aDecoder {
-    NSLog(@"从文件加载TitleButton");
     if (self = [super initWithCoder:aDecoder]) {
         [self initializeButton];
     }
@@ -29,7 +28,6 @@
 
 /** 从代码中加载对象就会调用此方法 */
 - (instancetype)initWithFrame:(CGRect)frame {
-    NSLog(@"从代码加载TitleButton");
     if (self = [super initWithFrame:frame]) {
         [self initializeButton];
     }

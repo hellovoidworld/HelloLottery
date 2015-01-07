@@ -269,7 +269,7 @@
                     <navigationItem key="navigationItem" title="我的彩票" id="RZW-sj-1os">
                         <barButtonItem key="rightBarButtonItem" title="设置" id="mh5-og-htj">
                             <connections>
-                                <segue destination="6gx-Cd-Y5L" kind="push" id="HEZ-Hh-SlO"/>
+                                <action selector="settingButtonClicked:" destination="6oo-FM-uuV" id="F3D-eL-Qpr"/>
                             </connections>
                         </barButtonItem>
                     </navigationItem>

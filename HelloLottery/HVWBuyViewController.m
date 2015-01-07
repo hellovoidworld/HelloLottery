@@ -50,7 +50,6 @@
         [popupView addSubview:label];
         
         self.popupView = popupView;
-        NSLog(@"%@", NSStringFromCGRect(self.popupView.frame));
     }
     
     return _popupView;
