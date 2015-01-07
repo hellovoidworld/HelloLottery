@@ -1,0 +1,499 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		E08E31221A543F4D00CA1315 /* HVWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E08E31211A543F4D00CA1315 /* HVWTabBarController.m */; };
+		E08E31251A54411E00CA1315 /* HVWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E08E31241A54411D00CA1315 /* HVWTabBar.m */; };
+		E08E31281A54DE0F00CA1315 /* HVWTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E08E31271A54DE0F00CA1315 /* HVWTabBarButton.m */; };
+		E08E312B1A54FDC300CA1315 /* HVWNavigationController.m in Sources */ = {isa = PBXBuildFile; fileRef = E08E312A1A54FDC300CA1315 /* HVWNavigationController.m */; };
+		E0C273661A5436F1003C1A93 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C273651A5436F1003C1A93 /* main.m */; };
+		E0C273691A5436F1003C1A93 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C273681A5436F1003C1A93 /* AppDelegate.m */; };
+		E0C2736F1A5436F1003C1A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C2736D1A5436F1003C1A93 /* Main.storyboard */; };
+		E0C273711A5436F1003C1A93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C273701A5436F1003C1A93 /* Images.xcassets */; };
+		E0C273801A5436F1003C1A93 /* HelloLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C2737F1A5436F1003C1A93 /* HelloLotteryTests.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		E0C2737A1A5436F1003C1A93 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = E0C273581A5436F1003C1A93 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = E0C2735F1A5436F1003C1A93;
+			remoteInfo = HelloLottery;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		E08E31201A543F4D00CA1315 /* HVWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWTabBarController.h; sourceTree = "<group>"; };
+		E08E31211A543F4D00CA1315 /* HVWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWTabBarController.m; sourceTree = "<group>"; };
+		E08E31231A54411D00CA1315 /* HVWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWTabBar.h; sourceTree = "<group>"; };
+		E08E31241A54411D00CA1315 /* HVWTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWTabBar.m; sourceTree = "<group>"; };
+		E08E31261A54DE0F00CA1315 /* HVWTabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWTabBarButton.h; sourceTree = "<group>"; };
+		E08E31271A54DE0F00CA1315 /* HVWTabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWTabBarButton.m; sourceTree = "<group>"; };
+		E08E31291A54FDC300CA1315 /* HVWNavigationController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWNavigationController.h; sourceTree = "<group>"; };
+		E08E312A1A54FDC300CA1315 /* HVWNavigationController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWNavigationController.m; sourceTree = "<group>"; };
+		E08E312D1A55019B00CA1315 /* HelloLottery-Prefix.pch */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "HelloLottery-Prefix.pch"; sourceTree = "<group>"; };
+		E0C273601A5436F1003C1A93 /* HelloLottery.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = HelloLottery.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C273641A5436F1003C1A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C273651A5436F1003C1A93 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		E0C273671A5436F1003C1A93 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		E0C273681A5436F1003C1A93 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		E0C2736E1A5436F1003C1A93 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		E0C273701A5436F1003C1A93 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		E0C273791A5436F1003C1A93 /* HelloLotteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloLotteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		E0C2737E1A5436F1003C1A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0C2737F1A5436F1003C1A93 /* HelloLotteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloLotteryTests.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		E0C2735D1A5436F1003C1A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C273761A5436F1003C1A93 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		E08E31151A543EA500CA1315 /* Hall */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Hall;
+			sourceTree = "<group>";
+		};
+		E08E31171A543EBA00CA1315 /* Setting */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Setting;
+			sourceTree = "<group>";
+		};
+		E08E31181A543EE700CA1315 /* Main */ = {
+			isa = PBXGroup;
+			children = (
+				E08E311C1A543F0500CA1315 /* Controller */,
+				E08E311B1A543F0100CA1315 /* View */,
+				E08E311A1A543EFC00CA1315 /* Model */,
+			);
+			name = Main;
+			sourceTree = "<group>";
+		};
+		E08E311A1A543EFC00CA1315 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E08E311B1A543F0100CA1315 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E08E31231A54411D00CA1315 /* HVWTabBar.h */,
+				E08E31241A54411D00CA1315 /* HVWTabBar.m */,
+				E08E31261A54DE0F00CA1315 /* HVWTabBarButton.h */,
+				E08E31271A54DE0F00CA1315 /* HVWTabBarButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E08E311C1A543F0500CA1315 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E08E31201A543F4D00CA1315 /* HVWTabBarController.h */,
+				E08E31211A543F4D00CA1315 /* HVWTabBarController.m */,
+				E08E31291A54FDC300CA1315 /* HVWNavigationController.h */,
+				E08E312A1A54FDC300CA1315 /* HVWNavigationController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E0C273571A5436F1003C1A93 = {
+			isa = PBXGroup;
+			children = (
+				E0C273621A5436F1003C1A93 /* HelloLottery */,
+				E0C2737C1A5436F1003C1A93 /* HelloLotteryTests */,
+				E0C273611A5436F1003C1A93 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		E0C273611A5436F1003C1A93 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				E0C273601A5436F1003C1A93 /* HelloLottery.app */,
+				E0C273791A5436F1003C1A93 /* HelloLotteryTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		E0C273621A5436F1003C1A93 /* HelloLottery */ = {
+			isa = PBXGroup;
+			children = (
+				E0C273891A543891003C1A93 /* Classes */,
+				E0C273671A5436F1003C1A93 /* AppDelegate.h */,
+				E0C273681A5436F1003C1A93 /* AppDelegate.m */,
+				E0C273631A5436F1003C1A93 /* Supporting Files */,
+			);
+			path = HelloLottery;
+			sourceTree = "<group>";
+		};
+		E0C273631A5436F1003C1A93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0C2736D1A5436F1003C1A93 /* Main.storyboard */,
+				E0C273701A5436F1003C1A93 /* Images.xcassets */,
+				E0C273641A5436F1003C1A93 /* Info.plist */,
+				E0C273651A5436F1003C1A93 /* main.m */,
+				E08E312D1A55019B00CA1315 /* HelloLottery-Prefix.pch */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0C2737C1A5436F1003C1A93 /* HelloLotteryTests */ = {
+			isa = PBXGroup;
+			children = (
+				E0C2737F1A5436F1003C1A93 /* HelloLotteryTests.m */,
+				E0C2737D1A5436F1003C1A93 /* Supporting Files */,
+			);
+			path = HelloLotteryTests;
+			sourceTree = "<group>";
+		};
+		E0C2737D1A5436F1003C1A93 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				E0C2737E1A5436F1003C1A93 /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		E0C273891A543891003C1A93 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				E08E31181A543EE700CA1315 /* Main */,
+				E08E31171A543EBA00CA1315 /* Setting */,
+				E08E31151A543EA500CA1315 /* Hall */,
+			);
+			name = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		E0C2735F1A5436F1003C1A93 /* HelloLottery */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0C273831A5436F1003C1A93 /* Build configuration list for PBXNativeTarget "HelloLottery" */;
+			buildPhases = (
+				E0C2735C1A5436F1003C1A93 /* Sources */,
+				E0C2735D1A5436F1003C1A93 /* Frameworks */,
+				E0C2735E1A5436F1003C1A93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = HelloLottery;
+			productName = HelloLottery;
+			productReference = E0C273601A5436F1003C1A93 /* HelloLottery.app */;
+			productType = "com.apple.product-type.application";
+		};
+		E0C273781A5436F1003C1A93 /* HelloLotteryTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = E0C273861A5436F1003C1A93 /* Build configuration list for PBXNativeTarget "HelloLotteryTests" */;
+			buildPhases = (
+				E0C273751A5436F1003C1A93 /* Sources */,
+				E0C273761A5436F1003C1A93 /* Frameworks */,
+				E0C273771A5436F1003C1A93 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				E0C2737B1A5436F1003C1A93 /* PBXTargetDependency */,
+			);
+			name = HelloLotteryTests;
+			productName = HelloLotteryTests;
+			productReference = E0C273791A5436F1003C1A93 /* HelloLotteryTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		E0C273581A5436F1003C1A93 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0610;
+				ORGANIZATIONNAME = hellovoidworld;
+				TargetAttributes = {
+					E0C2735F1A5436F1003C1A93 = {
+						CreatedOnToolsVersion = 6.1.1;
+					};
+					E0C273781A5436F1003C1A93 = {
+						CreatedOnToolsVersion = 6.1.1;
+						TestTargetID = E0C2735F1A5436F1003C1A93;
+					};
+				};
+			};
+			buildConfigurationList = E0C2735B1A5436F1003C1A93 /* Build configuration list for PBXProject "HelloLottery" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = E0C273571A5436F1003C1A93;
+			productRefGroup = E0C273611A5436F1003C1A93 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				E0C2735F1A5436F1003C1A93 /* HelloLottery */,
+				E0C273781A5436F1003C1A93 /* HelloLotteryTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		E0C2735E1A5436F1003C1A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C2736F1A5436F1003C1A93 /* Main.storyboard in Resources */,
+				E0C273711A5436F1003C1A93 /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C273771A5436F1003C1A93 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		E0C2735C1A5436F1003C1A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E08E31281A54DE0F00CA1315 /* HVWTabBarButton.m in Sources */,
+				E0C273691A5436F1003C1A93 /* AppDelegate.m in Sources */,
+				E0C273661A5436F1003C1A93 /* main.m in Sources */,
+				E08E312B1A54FDC300CA1315 /* HVWNavigationController.m in Sources */,
+				E08E31221A543F4D00CA1315 /* HVWTabBarController.m in Sources */,
+				E08E31251A54411E00CA1315 /* HVWTabBar.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		E0C273751A5436F1003C1A93 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				E0C273801A5436F1003C1A93 /* HelloLotteryTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		E0C2737B1A5436F1003C1A93 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = E0C2735F1A5436F1003C1A93 /* HelloLottery */;
+			targetProxy = E0C2737A1A5436F1003C1A93 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		E0C2736D1A5436F1003C1A93 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				E0C2736E1A5436F1003C1A93 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		E0C273811A5436F1003C1A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		E0C273821A5436F1003C1A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		E0C273841A5436F1003C1A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloLottery/HelloLottery-Prefix.pch";
+				INFOPLIST_FILE = HelloLottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		E0C273851A5436F1003C1A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				GCC_PRECOMPILE_PREFIX_HEADER = YES;
+				GCC_PREFIX_HEADER = "HelloLottery/HelloLottery-Prefix.pch";
+				INFOPLIST_FILE = HelloLottery/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		E0C273871A5436F1003C1A93 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloLotteryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloLottery.app/HelloLottery";
+			};
+			name = Debug;
+		};
+		E0C273881A5436F1003C1A93 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = HelloLotteryTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/HelloLottery.app/HelloLottery";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		E0C2735B1A5436F1003C1A93 /* Build configuration list for PBXProject "HelloLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C273811A5436F1003C1A93 /* Debug */,
+				E0C273821A5436F1003C1A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0C273831A5436F1003C1A93 /* Build configuration list for PBXNativeTarget "HelloLottery" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C273841A5436F1003C1A93 /* Debug */,
+				E0C273851A5436F1003C1A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E0C273861A5436F1003C1A93 /* Build configuration list for PBXNativeTarget "HelloLotteryTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E0C273871A5436F1003C1A93 /* Debug */,
+				E0C273881A5436F1003C1A93 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = E0C273581A5436F1003C1A93 /* Project object */;
+}

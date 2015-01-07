@@ -1,0 +1,22 @@
+//
+//  HelloLottery-Prefix.pch
+//  HelloLottery
+//
+//  Created by hellovoidworld on 15/1/1.
+//  Copyright (c) 2015年 hellovoidworld. All rights reserved.
+//
+
+#ifndef HelloLottery_HelloLottery_Prefix_pch
+#define HelloLottery_HelloLottery_Prefix_pch
+
+// Include any system framework and library headers here that should be included in all compilation units.
+// You will also need to set the Prefix Header build setting of one or more of your targets to reference this file.
+
+#ifdef __OBJC__
+
+#define iOS7 ([[[UIDevice currentDevice] systemVersion] doubleValue] > 7.0)
+
+#endif
+
+
+#endif
