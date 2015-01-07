@@ -16,6 +16,10 @@
 		E0C2736F1A5436F1003C1A93 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0C2736D1A5436F1003C1A93 /* Main.storyboard */; };
 		E0C273711A5436F1003C1A93 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E0C273701A5436F1003C1A93 /* Images.xcassets */; };
 		E0C273801A5436F1003C1A93 /* HelloLotteryTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0C2737F1A5436F1003C1A93 /* HelloLotteryTests.m */; };
+		E0EC863E1A5808620007CFB3 /* TitleExtendButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EC863D1A5808620007CFB3 /* TitleExtendButton.m */; };
+		E0EC86421A580DEF0007CFB3 /* HVWBuyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EC86411A580DEF0007CFB3 /* HVWBuyViewController.m */; };
+		E0EC86451A582D6F0007CFB3 /* UIImage+Extend.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EC86441A582D6F0007CFB3 /* UIImage+Extend.m */; };
+		E0EC86481A582F400007CFB3 /* HVWLoginViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0EC86471A582F400007CFB3 /* HVWLoginViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -48,6 +52,14 @@
 		E0C273791A5436F1003C1A93 /* HelloLotteryTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = HelloLotteryTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0C2737E1A5436F1003C1A93 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		E0C2737F1A5436F1003C1A93 /* HelloLotteryTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HelloLotteryTests.m; sourceTree = "<group>"; };
+		E0EC863C1A5808620007CFB3 /* TitleExtendButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TitleExtendButton.h; sourceTree = "<group>"; };
+		E0EC863D1A5808620007CFB3 /* TitleExtendButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TitleExtendButton.m; sourceTree = "<group>"; };
+		E0EC86401A580DEF0007CFB3 /* HVWBuyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWBuyViewController.h; sourceTree = "<group>"; };
+		E0EC86411A580DEF0007CFB3 /* HVWBuyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWBuyViewController.m; sourceTree = "<group>"; };
+		E0EC86431A582D6F0007CFB3 /* UIImage+Extend.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIImage+Extend.h"; sourceTree = "<group>"; };
+		E0EC86441A582D6F0007CFB3 /* UIImage+Extend.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIImage+Extend.m"; sourceTree = "<group>"; };
+		E0EC86461A582F400007CFB3 /* HVWLoginViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWLoginViewController.h; sourceTree = "<group>"; };
+		E0EC86471A582F400007CFB3 /* HVWLoginViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWLoginViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -143,8 +155,6 @@
 			isa = PBXGroup;
 			children = (
 				E0C273891A543891003C1A93 /* Classes */,
-				E0C273671A5436F1003C1A93 /* AppDelegate.h */,
-				E0C273681A5436F1003C1A93 /* AppDelegate.m */,
 				E0C273631A5436F1003C1A93 /* Supporting Files */,
 			);
 			path = HelloLottery;
@@ -182,11 +192,69 @@
 		E0C273891A543891003C1A93 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E0EC86371A57F9070007CFB3 /* Other */,
 				E08E31181A543EE700CA1315 /* Main */,
-				E08E31171A543EBA00CA1315 /* Setting */,
 				E08E31151A543EA500CA1315 /* Hall */,
+				E0EC86381A57F91C0007CFB3 /* Buy */,
+				E08E31171A543EBA00CA1315 /* Setting */,
+				E0EC86391A57F9370007CFB3 /* Mine */,
 			);
 			name = Classes;
+			sourceTree = "<group>";
+		};
+		E0EC86371A57F9070007CFB3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				E0C273671A5436F1003C1A93 /* AppDelegate.h */,
+				E0C273681A5436F1003C1A93 /* AppDelegate.m */,
+				E0EC863A1A57FA300007CFB3 /* Category */,
+			);
+			name = Other;
+			sourceTree = "<group>";
+		};
+		E0EC86381A57F91C0007CFB3 /* Buy */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC863F1A580DD90007CFB3 /* Controller */,
+				E0EC863B1A5808440007CFB3 /* View */,
+			);
+			name = Buy;
+			sourceTree = "<group>";
+		};
+		E0EC86391A57F9370007CFB3 /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC86461A582F400007CFB3 /* HVWLoginViewController.h */,
+				E0EC86471A582F400007CFB3 /* HVWLoginViewController.m */,
+			);
+			name = Mine;
+			sourceTree = "<group>";
+		};
+		E0EC863A1A57FA300007CFB3 /* Category */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC86431A582D6F0007CFB3 /* UIImage+Extend.h */,
+				E0EC86441A582D6F0007CFB3 /* UIImage+Extend.m */,
+			);
+			name = Category;
+			sourceTree = "<group>";
+		};
+		E0EC863B1A5808440007CFB3 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC863C1A5808620007CFB3 /* TitleExtendButton.h */,
+				E0EC863D1A5808620007CFB3 /* TitleExtendButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
+		E0EC863F1A580DD90007CFB3 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E0EC86401A580DEF0007CFB3 /* HVWBuyViewController.h */,
+				E0EC86411A580DEF0007CFB3 /* HVWBuyViewController.m */,
+			);
+			name = Controller;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -290,8 +358,12 @@
 			files = (
 				E08E31281A54DE0F00CA1315 /* HVWTabBarButton.m in Sources */,
 				E0C273691A5436F1003C1A93 /* AppDelegate.m in Sources */,
+				E0EC86451A582D6F0007CFB3 /* UIImage+Extend.m in Sources */,
 				E0C273661A5436F1003C1A93 /* main.m in Sources */,
 				E08E312B1A54FDC300CA1315 /* HVWNavigationController.m in Sources */,
+				E0EC863E1A5808620007CFB3 /* TitleExtendButton.m in Sources */,
+				E0EC86481A582F400007CFB3 /* HVWLoginViewController.m in Sources */,
+				E0EC86421A580DEF0007CFB3 /* HVWBuyViewController.m in Sources */,
 				E08E31221A543F4D00CA1315 /* HVWTabBarController.m in Sources */,
 				E08E31251A54411E00CA1315 /* HVWTabBar.m in Sources */,
 			);

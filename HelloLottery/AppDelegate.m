@@ -19,6 +19,7 @@
     // Override point for customization after application launch.
     
     // 设置状态栏样式为白色
+    application.statusBarHidden = NO;
     application.statusBarStyle = UIStatusBarStyleLightContent;
     
     return YES;
