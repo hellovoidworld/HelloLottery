@@ -15,6 +15,9 @@
         // 由于模型的成员属性和dictionary中的键值对数量不符，不能使用KVC
         self.icon = dictionary[@"icon"];
         self.title = dictionary[@"title"];
+        self.appStoreUrl = dictionary[@"url"];
+        self.urlId = dictionary[@"id"];
+        self.urlSchema = dictionary[@"customUrl"];
     }
     
     return self;

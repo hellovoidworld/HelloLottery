@@ -38,5 +38,17 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
+	<key>CFBundleURLTypes</key>
+	<array>
+		<dict>
+			<key>CFBundleURLName</key>
+			<string>com.hellovoidworld.hellolottery</string>
+			<key>CFBundleURLSchemes</key>
+			<array>
+				<string>hvw</string>
+				<string>hellovoidworld</string>
+			</array>
+		</dict>
+	</array>
 </dict>
 </plist>

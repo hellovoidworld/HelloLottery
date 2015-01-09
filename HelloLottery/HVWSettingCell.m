@@ -45,9 +45,13 @@
     return _arrowView;
 }
 
+/** 创建“开关”类型的cell */
 - (UISwitch *)switchView {
     if (nil == _switchView) {
         _switchView = [[UISwitch alloc] init];
+        
+        // 监听开关
+        [_switchView addTarget:self action:@selector(switchChange) forControlEvents:UIControlEventValueChanged];
     }
     return _switchView;
 }
@@ -69,7 +73,7 @@
     
     if (nil == cell) {
         // 创建带有副标题的cell
-        cell = [[HVWSettingCell alloc] initWithStyle:UITableViewCellStyleSubtitle reuseIdentifier:ID];
+        cell = [[HVWSettingCell alloc] initWithStyle:UITableViewCellStyleValue1 reuseIdentifier:ID];
     }
     
     return cell;
@@ -92,22 +96,52 @@
     if (self.item.icon) {
         self.imageView.image = [UIImage imageNamed:self.item.icon];
     }
+    
+    if (self.item.subTitle) {
+        self.detailTextLabel.text = self.item.subTitle;
+    }
 }
 
 
 /** 设置右部分控件 */
 - (void) setupRightView {
+    self.selectionStyle = UITableViewCellSelectionStyleDefault;
+    
     if ([self.item isKindOfClass:[HVWArrowSettingItem class]]) { // 跳转箭头类型
+        
         self.accessoryView = self.arrowView;
+        
     } else if ([self.item isKindOfClass:[HVWSwitchSettingItem class]]) { // 开关类型
+        
         self.accessoryView = self.switchView;
+        self.switchView.on = [self readSwitchStatus];
+        self.selectionStyle = UITableViewCellSelectionStyleNone;
+        
     } else if ([self.item isKindOfClass:[HVWLabelSettingItem class]]) { // 标签类型
+        
         self.accessoryView = self.labelView;
+        
     } else {
         self.accessoryView = nil;
     }
 }
 
+/** 开关变化事件 
+ * 存储开关状态到preferences
+ */
+- (void) switchChange {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    // 使用cell的title作为key，开关状态作为value
+    [defaults setBool:self.switchView.isOn forKey:self.item.title];
+    // 立即存储
+    [defaults synchronize];
+}
+
+/** 读取开关状态 */
+- (BOOL) readSwitchStatus {
+    NSUserDefaults *defaults = [NSUserDefaults standardUserDefaults];
+    return [defaults boolForKey:self.item.title];
+}
 
 
 @end

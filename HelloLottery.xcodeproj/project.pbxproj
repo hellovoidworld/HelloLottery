@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E0579C9A1A5FEB3200756472 /* HVWShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0579C991A5FEB3200756472 /* HVWShareViewController.m */; };
+		E06BBD181A5EB62500570607 /* HVWAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06BBD171A5EB62500570607 /* HVWAboutViewController.m */; };
+		E06BBD1E1A5ED96600570607 /* HVWAboutHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E06BBD1C1A5ED96600570607 /* HVWAboutHeader.xib */; };
+		E06BBD211A5EE48800570607 /* HVWAboutHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = E06BBD201A5EE48800570607 /* HVWAboutHeader.m */; };
 		E08E31221A543F4D00CA1315 /* HVWTabBarController.m in Sources */ = {isa = PBXBuildFile; fileRef = E08E31211A543F4D00CA1315 /* HVWTabBarController.m */; };
 		E08E31251A54411E00CA1315 /* HVWTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = E08E31241A54411D00CA1315 /* HVWTabBar.m */; };
 		E08E31281A54DE0F00CA1315 /* HVWTabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E08E31271A54DE0F00CA1315 /* HVWTabBarButton.m */; };
@@ -85,6 +89,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E0579C981A5FEB3200756472 /* HVWShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWShareViewController.h; sourceTree = "<group>"; };
+		E0579C991A5FEB3200756472 /* HVWShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWShareViewController.m; sourceTree = "<group>"; };
+		E06BBD161A5EB62500570607 /* HVWAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWAboutViewController.h; sourceTree = "<group>"; };
+		E06BBD171A5EB62500570607 /* HVWAboutViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWAboutViewController.m; sourceTree = "<group>"; };
+		E06BBD1C1A5ED96600570607 /* HVWAboutHeader.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HVWAboutHeader.xib; sourceTree = "<group>"; };
+		E06BBD1F1A5EE48800570607 /* HVWAboutHeader.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWAboutHeader.h; sourceTree = "<group>"; };
+		E06BBD201A5EE48800570607 /* HVWAboutHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWAboutHeader.m; sourceTree = "<group>"; };
 		E08E31201A543F4D00CA1315 /* HVWTabBarController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWTabBarController.h; sourceTree = "<group>"; };
 		E08E31211A543F4D00CA1315 /* HVWTabBarController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWTabBarController.m; sourceTree = "<group>"; };
 		E08E31231A54411D00CA1315 /* HVWTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWTabBar.h; sourceTree = "<group>"; };
@@ -202,6 +213,100 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E0579C971A5FEAEC00756472 /* Share */ = {
+			isa = PBXGroup;
+			children = (
+				E0579C981A5FEB3200756472 /* HVWShareViewController.h */,
+				E0579C991A5FEB3200756472 /* HVWShareViewController.m */,
+			);
+			name = Share;
+			sourceTree = "<group>";
+		};
+		E06BBD0E1A5EB43100570607 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+				E0D27F3C1A5BDBCF00CA7B24 /* HVWPushNoticeViewController.h */,
+				E0D27F3D1A5BDBCF00CA7B24 /* HVWPushNoticeViewController.m */,
+				E0D27F3F1A5BFCAF00CA7B24 /* HVWLotteryPushViewController.h */,
+				E0D27F401A5BFCAF00CA7B24 /* HVWLotteryPushViewController.m */,
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+		E06BBD0F1A5EB43A00570607 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				E0BE7E681A5CD930001F59C0 /* HVWProductViewController.h */,
+				E0BE7E691A5CD930001F59C0 /* HVWProductViewController.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		E06BBD101A5EB45C00570607 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				E0BE7E731A5D13DF001F59C0 /* HVWHelpViewController.h */,
+				E0BE7E741A5D13DF001F59C0 /* HVWHelpViewController.m */,
+				E0BE7E7B1A5D1B59001F59C0 /* HVWHtmlViewController.h */,
+				E0BE7E7C1A5D1B59001F59C0 /* HVWHtmlViewController.m */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		E06BBD111A5EB46D00570607 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				E0BE7E6B1A5CD9C2001F59C0 /* HVWProductCell.h */,
+				E0BE7E6C1A5CD9C2001F59C0 /* HVWProductCell.m */,
+				E0BE7E6D1A5CD9C2001F59C0 /* HVWProductCell.xib */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		E06BBD121A5EB47800570607 /* Push */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Push;
+			sourceTree = "<group>";
+		};
+		E06BBD131A5EB47C00570607 /* Product */ = {
+			isa = PBXGroup;
+			children = (
+				E0BE7E701A5CDAD0001F59C0 /* HVWProduct.h */,
+				E0BE7E711A5CDAD0001F59C0 /* HVWProduct.m */,
+			);
+			name = Product;
+			sourceTree = "<group>";
+		};
+		E06BBD141A5EB53800570607 /* Help */ = {
+			isa = PBXGroup;
+			children = (
+				E0BE7E781A5D162F001F59C0 /* HVWHtml.h */,
+				E0BE7E791A5D162F001F59C0 /* HVWHtml.m */,
+			);
+			name = Help;
+			sourceTree = "<group>";
+		};
+		E06BBD151A5EB55C00570607 /* About */ = {
+			isa = PBXGroup;
+			children = (
+				E06BBD161A5EB62500570607 /* HVWAboutViewController.h */,
+				E06BBD171A5EB62500570607 /* HVWAboutViewController.m */,
+			);
+			name = About;
+			sourceTree = "<group>";
+		};
+		E06BBD191A5ED93F00570607 /* Abour */ = {
+			isa = PBXGroup;
+			children = (
+				E06BBD1C1A5ED96600570607 /* HVWAboutHeader.xib */,
+				E06BBD1F1A5EE48800570607 /* HVWAboutHeader.h */,
+				E06BBD201A5EE48800570607 /* HVWAboutHeader.m */,
+			);
+			name = Abour;
+			sourceTree = "<group>";
+		};
 		E08E31151A543EA500CA1315 /* Hall */ = {
 			isa = PBXGroup;
 			children = (
@@ -332,20 +437,15 @@
 		E0D27EE01A5B849900CA7B24 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				E0579C971A5FEAEC00756472 /* Share */,
+				E06BBD151A5EB55C00570607 /* About */,
+				E06BBD101A5EB45C00570607 /* Help */,
+				E06BBD0F1A5EB43A00570607 /* Product */,
+				E06BBD0E1A5EB43100570607 /* Push */,
 				E0D27F241A5B85CA00CA7B24 /* HVWBaseSettingViewController.h */,
 				E0D27F251A5B85CA00CA7B24 /* HVWBaseSettingViewController.m */,
 				E0D27F301A5B8CDF00CA7B24 /* HVWSettingViewController.h */,
 				E0D27F311A5B8CDF00CA7B24 /* HVWSettingViewController.m */,
-				E0D27F3C1A5BDBCF00CA7B24 /* HVWPushNoticeViewController.h */,
-				E0D27F3D1A5BDBCF00CA7B24 /* HVWPushNoticeViewController.m */,
-				E0D27F3F1A5BFCAF00CA7B24 /* HVWLotteryPushViewController.h */,
-				E0D27F401A5BFCAF00CA7B24 /* HVWLotteryPushViewController.m */,
-				E0BE7E681A5CD930001F59C0 /* HVWProductViewController.h */,
-				E0BE7E691A5CD930001F59C0 /* HVWProductViewController.m */,
-				E0BE7E731A5D13DF001F59C0 /* HVWHelpViewController.h */,
-				E0BE7E741A5D13DF001F59C0 /* HVWHelpViewController.m */,
-				E0BE7E7B1A5D1B59001F59C0 /* HVWHtmlViewController.h */,
-				E0BE7E7C1A5D1B59001F59C0 /* HVWHtmlViewController.m */,
 			);
 			name = Controller;
 			sourceTree = "<group>";
@@ -353,11 +453,10 @@
 		E0D27EE11A5B849E00CA7B24 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				E06BBD191A5ED93F00570607 /* Abour */,
+				E06BBD111A5EB46D00570607 /* Product */,
 				E0D27F2D1A5B8A1D00CA7B24 /* HVWSettingCell.h */,
 				E0D27F2E1A5B8A1D00CA7B24 /* HVWSettingCell.m */,
-				E0BE7E6B1A5CD9C2001F59C0 /* HVWProductCell.h */,
-				E0BE7E6C1A5CD9C2001F59C0 /* HVWProductCell.m */,
-				E0BE7E6D1A5CD9C2001F59C0 /* HVWProductCell.xib */,
 			);
 			name = View;
 			sourceTree = "<group>";
@@ -365,6 +464,9 @@
 		E0D27EE21A5B84A300CA7B24 /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				E06BBD141A5EB53800570607 /* Help */,
+				E06BBD131A5EB47C00570607 /* Product */,
+				E06BBD121A5EB47800570607 /* Push */,
 				E0D27F271A5B884600CA7B24 /* HVWSettingGroup.h */,
 				E0D27F281A5B884600CA7B24 /* HVWSettingGroup.m */,
 				E0D27F2A1A5B885200CA7B24 /* HVWSettingItem.h */,
@@ -375,10 +477,6 @@
 				E0D27F371A5BCB1A00CA7B24 /* HVWSwitchSettingItem.m */,
 				E0D27F391A5BCBF100CA7B24 /* HVWLabelSettingItem.h */,
 				E0D27F3A1A5BCBF100CA7B24 /* HVWLabelSettingItem.m */,
-				E0BE7E701A5CDAD0001F59C0 /* HVWProduct.h */,
-				E0BE7E711A5CDAD0001F59C0 /* HVWProduct.m */,
-				E0BE7E781A5D162F001F59C0 /* HVWHtml.h */,
-				E0BE7E791A5D162F001F59C0 /* HVWHtml.m */,
 			);
 			name = Model;
 			sourceTree = "<group>";
@@ -585,6 +683,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E06BBD1E1A5ED96600570607 /* HVWAboutHeader.xib in Resources */,
 				E0D27F131A5B84DF00CA7B24 /* jxy11_howto.html in Resources */,
 				E0D27F111A5B84DF00CA7B24 /* jczq_howto.html in Resources */,
 				E0D27F1B1A5B84DF00CA7B24 /* qlc_howto.html in Resources */,
@@ -652,6 +751,9 @@
 				E0D27F321A5B8CDF00CA7B24 /* HVWSettingViewController.m in Sources */,
 				E0BE7E6A1A5CD930001F59C0 /* HVWProductViewController.m in Sources */,
 				E0EC86421A580DEF0007CFB3 /* HVWBuyViewController.m in Sources */,
+				E06BBD211A5EE48800570607 /* HVWAboutHeader.m in Sources */,
+				E06BBD181A5EB62500570607 /* HVWAboutViewController.m in Sources */,
+				E0579C9A1A5FEB3200756472 /* HVWShareViewController.m in Sources */,
 				E0BE7E721A5CDAD0001F59C0 /* HVWProduct.m in Sources */,
 				E0D27F291A5B884600CA7B24 /* HVWSettingGroup.m in Sources */,
 				E0BE7E7A1A5D162F001F59C0 /* HVWHtml.m in Sources */,
@@ -780,6 +882,7 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_LAUNCHIMAGE_NAME = LaunchImage;
+				CODE_SIGN_IDENTITY = "iPhone Developer: quanlan huang (6P6H69QVNT)";
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
 				GCC_PREFIX_HEADER = "HelloLottery/HelloLottery-Prefix.pch";
 				INFOPLIST_FILE = HelloLottery/Info.plist;

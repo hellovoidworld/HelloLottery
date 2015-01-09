@@ -12,6 +12,9 @@
 
 @property(nonatomic, copy) NSString *icon;
 @property(nonatomic, copy) NSString *title;
+@property(nonatomic, copy) NSString *appStoreUrl;
+@property(nonatomic, copy) NSString *urlId;
+@property(nonatomic, copy) NSString *urlSchema;
 
 - (instancetype) initWithDictionary:(NSDictionary *) dictionary;
 + (instancetype) productWithDictionary:(NSDictionary *) dictionary;

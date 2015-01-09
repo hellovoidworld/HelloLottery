@@ -14,6 +14,8 @@
 #import "MBProgressHUD+MJ.h"
 #import "HVWProductViewController.h"
 #import "HVWHelpViewController.h"
+#import "HVWAboutViewController.h"
+#import "HVWShareViewController.h"
 
 @interface HVWSettingViewController ()
 
@@ -67,9 +69,9 @@
     
     HVWSettingItem *checkMailItem = [HVWArrowSettingItem itemWithIcon:@"MoreMessage" title:@"查看邮箱"];
     HVWSettingItem *helpItem = [HVWArrowSettingItem itemWithIcon:@"MoreHelp" title:@"帮助" destinationViewControllerClass:[HVWHelpViewController class]];
-    HVWSettingItem *shareItem = [HVWArrowSettingItem itemWithIcon:@"MoreShare" title:@"分享"];
+    HVWSettingItem *shareItem = [HVWArrowSettingItem itemWithIcon:@"MoreShare" title:@"分享" destinationViewControllerClass:[HVWShareViewController class]];
     HVWSettingItem *productRecommandItem = [HVWArrowSettingItem itemWithIcon:@"MoreNetease" title:@"产品推荐" destinationViewControllerClass:[HVWProductViewController class]];
-    HVWSettingItem *aboutItem = [HVWArrowSettingItem itemWithIcon:@"MoreAbout" title:@"关于"];
+    HVWSettingItem *aboutItem = [HVWArrowSettingItem itemWithIcon:@"MoreAbout" title:@"关于" destinationViewControllerClass:[HVWAboutViewController class]];
     
     HVWSettingGroup *group = [[HVWSettingGroup alloc] init];
     group.items = @[updateCheckItem, checkMailItem, helpItem, shareItem, productRecommandItem, aboutItem];

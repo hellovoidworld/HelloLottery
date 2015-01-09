@@ -110,7 +110,19 @@ static NSString * const reuseIdentifier = @"HVWProductCell";
 /** 选择事件 */
 - (void)collectionView:(UICollectionView *)collectionView didSelectItemAtIndexPath:(NSIndexPath *)indexPath {
     HVWProduct *product = self.products[indexPath.item];
-    NSLog(@"选择了app: %@", product.title);
+    
+    NSURL *appUrl = [NSURL URLWithString:[NSString stringWithFormat:@"%@://%@", product.urlSchema, product.urlId]];
+    NSURL *appStoreUrl = [NSURL URLWithString:product.appStoreUrl];
+
+    UIApplication *application = [UIApplication sharedApplication];
+    // 先判断是否存在此app
+    if ([application canOpenURL:appUrl]) {
+        // 打开app
+        [application openURL:appUrl];
+    } else {
+        // 跳转到app store下载app
+        [application openURL:appStoreUrl];
+    }
 }
 
 @end

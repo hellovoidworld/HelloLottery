@@ -22,6 +22,9 @@ typedef void (^RunningBlock)();
 /** block代码 */
 @property(nonatomic, copy) RunningBlock runningBlock;
 
+/** 副标题 */
+@property(nonatomic, copy) NSString *subTitle;
+
 + (instancetype) itemWithIcon:(NSString *) icon title:(NSString *) title;
 + (instancetype) itemWithTitle:(NSString *) title;
 

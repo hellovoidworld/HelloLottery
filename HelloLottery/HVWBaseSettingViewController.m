@@ -100,6 +100,7 @@
     return group.headerTitle;
 }
 
+
 /** 组尾部 */
 - (NSString *)tableView:(UITableView *)tableView titleForFooterInSection:(NSInteger)section {
     HVWSettingGroup *group = self.data[section];
