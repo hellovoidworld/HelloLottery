@@ -7,6 +7,10 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		E007178C1A696220004DCA40 /* HVWLuckyWheel.m in Sources */ = {isa = PBXBuildFile; fileRef = E00717881A696220004DCA40 /* HVWLuckyWheel.m */; };
+		E007178D1A696220004DCA40 /* HVWLuckyWheel.xib in Resources */ = {isa = PBXBuildFile; fileRef = E00717891A696220004DCA40 /* HVWLuckyWheel.xib */; };
+		E007178E1A696220004DCA40 /* HVWLuckyWheelButton.m in Sources */ = {isa = PBXBuildFile; fileRef = E007178B1A696220004DCA40 /* HVWLuckyWheelButton.m */; };
+		E00717911A6962E9004DCA40 /* HVWLuckyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E00717901A6962E9004DCA40 /* HVWLuckyViewController.m */; };
 		E0579C9A1A5FEB3200756472 /* HVWShareViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0579C991A5FEB3200756472 /* HVWShareViewController.m */; };
 		E06BBD181A5EB62500570607 /* HVWAboutViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E06BBD171A5EB62500570607 /* HVWAboutViewController.m */; };
 		E06BBD1E1A5ED96600570607 /* HVWAboutHeader.xib in Resources */ = {isa = PBXBuildFile; fileRef = E06BBD1C1A5ED96600570607 /* HVWAboutHeader.xib */; };
@@ -89,6 +93,13 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		E00717871A696220004DCA40 /* HVWLuckyWheel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWLuckyWheel.h; sourceTree = "<group>"; };
+		E00717881A696220004DCA40 /* HVWLuckyWheel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWLuckyWheel.m; sourceTree = "<group>"; };
+		E00717891A696220004DCA40 /* HVWLuckyWheel.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = HVWLuckyWheel.xib; sourceTree = "<group>"; };
+		E007178A1A696220004DCA40 /* HVWLuckyWheelButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWLuckyWheelButton.h; sourceTree = "<group>"; };
+		E007178B1A696220004DCA40 /* HVWLuckyWheelButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWLuckyWheelButton.m; sourceTree = "<group>"; };
+		E007178F1A6962E9004DCA40 /* HVWLuckyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWLuckyViewController.h; sourceTree = "<group>"; };
+		E00717901A6962E9004DCA40 /* HVWLuckyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWLuckyViewController.m; sourceTree = "<group>"; };
 		E0579C981A5FEB3200756472 /* HVWShareViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWShareViewController.h; sourceTree = "<group>"; };
 		E0579C991A5FEB3200756472 /* HVWShareViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HVWShareViewController.m; sourceTree = "<group>"; };
 		E06BBD161A5EB62500570607 /* HVWAboutViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HVWAboutViewController.h; sourceTree = "<group>"; };
@@ -213,6 +224,44 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		E00717831A6961E7004DCA40 /* Lucky */ = {
+			isa = PBXGroup;
+			children = (
+				E00717841A6961F7004DCA40 /* Model */,
+				E00717861A696202004DCA40 /* View */,
+				E00717851A6961FC004DCA40 /* Controller */,
+			);
+			name = Lucky;
+			sourceTree = "<group>";
+		};
+		E00717841A6961F7004DCA40 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = Model;
+			sourceTree = "<group>";
+		};
+		E00717851A6961FC004DCA40 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				E007178F1A6962E9004DCA40 /* HVWLuckyViewController.h */,
+				E00717901A6962E9004DCA40 /* HVWLuckyViewController.m */,
+			);
+			name = Controller;
+			sourceTree = "<group>";
+		};
+		E00717861A696202004DCA40 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				E00717871A696220004DCA40 /* HVWLuckyWheel.h */,
+				E00717881A696220004DCA40 /* HVWLuckyWheel.m */,
+				E00717891A696220004DCA40 /* HVWLuckyWheel.xib */,
+				E007178A1A696220004DCA40 /* HVWLuckyWheelButton.h */,
+				E007178B1A696220004DCA40 /* HVWLuckyWheelButton.m */,
+			);
+			name = View;
+			sourceTree = "<group>";
+		};
 		E0579C971A5FEAEC00756472 /* Share */ = {
 			isa = PBXGroup;
 			children = (
@@ -424,6 +473,7 @@
 		E0C273891A543891003C1A93 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
+				E00717831A6961E7004DCA40 /* Lucky */,
 				E0EC86371A57F9070007CFB3 /* Other */,
 				E08E31181A543EE700CA1315 /* Main */,
 				E08E31151A543EA500CA1315 /* Hall */,
@@ -719,6 +769,7 @@
 				E0D27F221A5B84DF00CA7B24 /* y11_howto.html in Resources */,
 				E0D27F1F1A5B84DF00CA7B24 /* ssc_howto.html in Resources */,
 				E0D27F201A5B84DF00CA7B24 /* ssq_howto.html in Resources */,
+				E007178D1A696220004DCA40 /* HVWLuckyWheel.xib in Resources */,
 				E0D27F191A5B84DF00CA7B24 /* pl3_howto.html in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -748,11 +799,13 @@
 				E0EC863E1A5808620007CFB3 /* TitleExtendButton.m in Sources */,
 				E0EC86481A582F400007CFB3 /* HVWLoginViewController.m in Sources */,
 				E0BE7E6E1A5CD9C2001F59C0 /* HVWProductCell.m in Sources */,
+				E00717911A6962E9004DCA40 /* HVWLuckyViewController.m in Sources */,
 				E0D27F321A5B8CDF00CA7B24 /* HVWSettingViewController.m in Sources */,
 				E0BE7E6A1A5CD930001F59C0 /* HVWProductViewController.m in Sources */,
 				E0EC86421A580DEF0007CFB3 /* HVWBuyViewController.m in Sources */,
 				E06BBD211A5EE48800570607 /* HVWAboutHeader.m in Sources */,
 				E06BBD181A5EB62500570607 /* HVWAboutViewController.m in Sources */,
+				E007178E1A696220004DCA40 /* HVWLuckyWheelButton.m in Sources */,
 				E0579C9A1A5FEB3200756472 /* HVWShareViewController.m in Sources */,
 				E0BE7E721A5CDAD0001F59C0 /* HVWProduct.m in Sources */,
 				E0D27F291A5B884600CA7B24 /* HVWSettingGroup.m in Sources */,
@@ -765,6 +818,7 @@
 				E0D27F351A5BCB0B00CA7B24 /* HVWArrowSettingItem.m in Sources */,
 				E0BE7E751A5D13DF001F59C0 /* HVWHelpViewController.m in Sources */,
 				E0D27F381A5BCB1A00CA7B24 /* HVWSwitchSettingItem.m in Sources */,
+				E007178C1A696220004DCA40 /* HVWLuckyWheel.m in Sources */,
 				E0D27F481A5C209400CA7B24 /* MBProgressHUD+MJ.m in Sources */,
 				E0D27F2F1A5B8A1D00CA7B24 /* HVWSettingCell.m in Sources */,
 				E0D27F2C1A5B885200CA7B24 /* HVWSettingItem.m in Sources */,
